@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost.Rust.Cargo", "src\Lost.Rust.Cargo.csproj", "{C59B4E67-142A-4484-AA03-8684D1CEBD9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost.Rust.Cargo.UnitTests", "unitTests\Lost.Rust.Cargo.UnitTests.csproj", "{7FF2AA20-E53F-4D84-955E-E80AC572A316}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C59B4E67-142A-4484-AA03-8684D1CEBD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59B4E67-142A-4484-AA03-8684D1CEBD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59B4E67-142A-4484-AA03-8684D1CEBD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
