@@ -1,0 +1,62 @@
+﻿namespace Lost.Rust.Cargo.UnitTests
+{
+	class Samples
+	{
+		public const string CargoPackageManifest =
+			@"[project]
+name = ""cargo""
+version = ""0.3.0""
+authors = [""Yehuda Katz <wycats@gmail.com>"",
+           ""Carl Lerche <me@carllerche.com>"",
+           ""Alex Crichton <alex@alexcrichton.com>""]
+
+[lib]
+name = ""cargo""
+path = ""src/cargo/lib.rs""
+
+[dependencies]
+curl = ""0.2""
+docopt = ""0.6""
+env_logger = ""0.3""
+flate2 = ""0.2""
+git2 = { version = ""0.2"", features = [""unstable""] }
+git2-curl = ""0.2""
+glob = ""0.2""
+libc = ""0.1""
+libgit2-sys = ""0.2""
+log = ""0.3""
+num_cpus = ""0.1""
+regex = ""0.1""
+registry = { path = ""src/registry"" }
+rustc-serialize = ""0.3""
+semver = ""0.1""
+tar = { version = ""0.2"", features = [""nightly""] }
+term = ""0.2""
+threadpool = ""0.1""
+time = ""0.1""
+toml = ""0.1""
+url = ""0.2""
+filetime = ""0.1""
+
+[target.i686-pc-windows-gnu]
+dependencies = { winapi = ""0.1"", advapi32-sys = ""0.1"", kernel32-sys = ""0.1"" }
+[target.x86_64-pc-windows-gnu]
+dependencies = { winapi = ""0.1"", advapi32-sys = ""0.1"", kernel32-sys = ""0.1"" }
+
+[dev-dependencies]
+tempdir = ""0.3""
+hamcrest = { git = ""https://github.com/carllerche/hamcrest-rust.git"" }
+bufstream = ""0.1""
+
+[[bin]]
+name = ""cargo""
+test = false
+doc = false
+
+[[test]]
+name = ""tests""
+
+[[test]]
+name = ""resolve""";
+	}
+}

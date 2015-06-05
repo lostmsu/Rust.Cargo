@@ -4,7 +4,7 @@
 	using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 	[TestClass]
-	public class RustTests
+	public sealed class RustTests
 	{
 		[TestMethod]
 		public void ValidateIdentifier_NoThrowOnValid()
