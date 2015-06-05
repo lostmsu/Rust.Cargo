@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost.Rust.Cargo", "src\Lost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost.Rust.Cargo.UnitTests", "unitTests\Lost.Rust.Cargo.UnitTests.csproj", "{7FF2AA20-E53F-4D84-955E-E80AC572A316}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor.Portable", "..\..\OSS\HyperTomlProcessor\HyperTomlProcessor.Portable\HyperTomlProcessor.Portable.csproj", "{32C82A6D-E4B3-41F5-AB54-1BD6D14A9EA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2E67D61E-0833-46D1-8322-868618D9AC04}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,10 @@ Global
 		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF2AA20-E53F-4D84-955E-E80AC572A316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C82A6D-E4B3-41F5-AB54-1BD6D14A9EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C82A6D-E4B3-41F5-AB54-1BD6D14A9EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C82A6D-E4B3-41F5-AB54-1BD6D14A9EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C82A6D-E4B3-41F5-AB54-1BD6D14A9EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
